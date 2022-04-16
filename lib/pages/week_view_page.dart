@@ -17,6 +17,7 @@ class _WeekViewDemoState extends State<WeekViewDemo> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(title: Text("Event"), centerTitle: true),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         elevation: 8,
